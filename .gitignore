@@ -1,0 +1,49 @@
+# Ignore everything
+*
+
+# But allow these specific items
+!src/
+!src/**
+!README.md
+!.gitignore
+
+# Keep empty directories
+!.gitkeep
+
+# Common patterns to explicitly ignore (redundant but clear)
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+.venv.bak/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Data files (except structure)
+data/logs/*
+data/plates/*
+!data/logs/.gitkeep
+!data/plates/.gitkeep
+
+# Book folder contents
+book/*
