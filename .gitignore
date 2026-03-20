@@ -1,6 +1,3 @@
-# Ignore everything
-*
-
 # But allow these specific items
 !src/
 !src/**
